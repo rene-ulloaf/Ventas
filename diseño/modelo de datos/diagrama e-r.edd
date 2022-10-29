@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<easyDesigner>
+  <Model>
+    <Tables>
+      <Table name="productos">
+        <Columns>
+          <Column name="idProducto" key="false" dataType="INTEGER" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="idTipoProducto" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="nombre" key="false" dataType="VARCHAR(255)" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="vigente" key="false" dataType="BOOL" notNull="true" autoIncrement="false" defaultValue="true" />
+          <Column name="fechaCreacion" key="false" dataType="DATETIME" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idUsuario" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="compras">
+        <Columns>
+          <Column name="idCompra" key="false" dataType="INTEGER" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="idProducto" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="observacion" key="false" dataType="VARCHAR(255)" notNull="false" autoIncrement="false" defaultValue="" />
+          <Column name="cantProductos" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="precioCompra" key="false" dataType="NUMERIC" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idTipoMoneda" key="false" dataType="SMALLINT" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idParidad" key="false" dataType="NUMERIC" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fechaCompra" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fechaLlegada" key="false" dataType="DATE" notNull="false" autoIncrement="false" defaultValue="" />
+          <Column name="fechaPago" key="false" dataType="DATE" notNull="false" autoIncrement="false" defaultValue="" />
+          <Column name="idOrigenCompra" key="false" dataType="SMALLINT" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fechaIngreso" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idUsuario" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="ventas">
+        <Columns>
+          <Column name="idVenta" key="false" dataType="INTEGER" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="idCompra" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="cantidad" key="false" dataType="SMALLINT" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="precio" key="false" dataType="NUMERIC" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idPersona" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fechaVenta" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idUsuario" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="gastos">
+        <Columns>
+          <Column name="idGasto" key="false" dataType="INTEGER" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="idTipoGasto" key="false" dataType="SMALLINT" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="precio" key="false" dataType="NUMERIC" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="observacion" key="false" dataType="VARCHAR(255)" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fecha" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="idUsuario" key="false" dataType="INTEGER" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="tipoProducto">
+        <Columns>
+          <Column name="idTipoProducto" key="false" dataType="SMALLINT" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="nombre" key="false" dataType="VARCHAR" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="vigente" key="false" dataType="BOOL" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="tipoMoneda">
+        <Columns>
+          <Column name="idTipoMoneda" key="false" dataType="SMALLINT" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="nombre" key="false" dataType="VARCHAR" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="vigente" key="false" dataType="BOOL" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="origenCompra">
+        <Columns>
+          <Column name="idOrigen" key="false" dataType="SMALLINT" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="nombre" key="false" dataType="VARCHAR" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="vigente" key="false" dataType="BOOL" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+      <Table name="Paridad">
+        <Columns>
+          <Column name="idParidad" key="false" dataType="INTEGER" notNull="true" autoIncrement="true" defaultValue="" />
+          <Column name="idTipoMoneda" key="false" dataType="SMALLINT" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="monto" key="false" dataType="DECIMAL" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fecha" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+          <Column name="fechaIngreso" key="false" dataType="DATE" notNull="true" autoIncrement="false" defaultValue="" />
+        </Columns>
+        <ForeignKeys />
+        <Indexes />
+      </Table>
+    </Tables>
+    <Relations>
+      <Relation name="Rel_2" source="productos" destination="compras" kind="1n" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_4" source="tipoProducto" destination="productos" kind="11" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_7" source="origenCompra" destination="compras" kind="11_non_id" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_8" source="tipoMoneda" destination="compras" kind="11_non_id" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_9" source="tipoMoneda" destination="Paridad" kind="1n_non_id" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_10" source="Paridad" destination="compras" kind="11_non_id" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_11" source="gastos" destination="ventas" kind="1n" start="false" definition="true" delete="no_action" update="no_action" />
+      <Relation name="Rel_12" source="compras" destination="ventas" kind="1n" start="false" definition="true" delete="no_action" update="no_action" />
+    </Relations>
+  </Model>
+  <Diagram>
+    <Shapes>
+      <Tables>
+        <Table table="tipoProducto" x="90" y="35" />
+        <Table table="compras" x="402" y="212" />
+        <Table table="tipoMoneda" x="409" y="35" />
+        <Table table="productos" x="89" y="274" />
+        <Table table="Paridad" x="681" y="37" />
+        <Table table="gastos" x="684" y="526" />
+        <Table table="origenCompra" x="688" y="336" />
+        <Table table="ventas" x="423" y="518" />
+      </Tables>
+      <Relations>
+        <Relation source="productos" destination="compras" division="0.44701986754966877" />
+        <Relation source="tipoProducto" destination="productos" division="0.5" />
+        <Relation source="origenCompra" destination="compras" division="0.5" />
+        <Relation source="tipoMoneda" destination="compras" division="0.5" />
+        <Relation source="tipoMoneda" destination="Paridad" division="0.5" />
+        <Relation source="Paridad" destination="compras" division="0.5543478260869565" />
+        <Relation source="gastos" destination="ventas" division="0.5" />
+        <Relation source="compras" destination="ventas" division="0.5" />
+      </Relations>
+      <Regions />
+    </Shapes>
+  </Diagram>
+  <Viewport zoom="1.0" x="0" y="0" />
+</easyDesigner>
+
