@@ -1,0 +1,104 @@
+<mockup version="1.0" skin="sketch" measuredW="792" measuredH="385" mockupW="732" mockupH="365">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="60" y="20" w="732" h="365" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Producto%20Compra</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="84" y="98" w="-1" h="-1" measuredW="36" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tipo%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="174" y="97" w="-1" h="-1" measuredW="92" measuredH="25" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ComboBox</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="84" y="138" w="-1" h="-1" measuredW="65" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>cantidad%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="290" y="137" w="-1" h="-1" measuredW="40" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>valor%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="174" y="135" w="36" h="-1" measuredW="22" measuredH="29" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>0</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="330" y="135" w="40" h="-1" measuredW="35" measuredH="29" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>up</state>
+        <text>0%2C0</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="511" y="137" w="-1" h="-1" measuredW="54" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>valor%20%24%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="572" y="135" w="40" h="-1" measuredW="22" measuredH="29" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>0</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="75" y="57" w="99" h="26" measuredW="98" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>fecha%20Llegada%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextArea" x="174" y="172" w="593" h="140" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="87" y="172" w="-1" h="-1" measuredW="80" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Descripci%F3n%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="290" y="98" w="-1" h="-1" measuredW="101" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Moneda%20Compra</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::ComboBox" x="394" y="97" w="-1" h="-1" measuredW="92" measuredH="25" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>ComboBox</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="397" y="137" w="-1" h="-1" measuredW="59" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Paridad%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="460" y="137" w="40" h="-1" measuredW="22" measuredH="29" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>0</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="691" y="327" w="-1" h="-1" measuredW="75" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Guardar</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Button" x="612" y="327" w="-1" h="-1" measuredW="63" measuredH="28" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nuevo</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::DateChooser" x="174" y="55" w="-1" h="-1" measuredW="106" measuredH="29" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>focused</state>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
